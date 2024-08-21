@@ -4,12 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assignment-3</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" >
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-   <h1>this is mamun </h1>
+    <!-- font-size link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind and daisyUI cnd -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" >
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+
+
+    <style>
+      .font-poppins{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+            color:{
+                primary: '#D4F6AE'
+            } 
+             
+            }
+          }
+        }
+      }
+    </script>
+</head>
+
+
+<body class="font-poppins">
+   <!-- header area start here -->
+    <header class="w-4/5 mx-auto">
+        <!-- start navber area -->
+        <div class="navbar bg-re-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                
+            </div>
+          </div>
+
+              <a class="btn btn-ghost text-xl"><i class="fa-light fa-arrow-up-right"></i>Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>              
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-primary w-2/3 rounded-3xl ">book Consult</a>
+            </div>
+        </div>
+         <!-- end navber area -->
+         <img class="w-3/4 mx-auto" src="./assets/banner.png" alt="banner">
+         <h2 class="lg:w-full mx-auto lg:text-6xl font-bold text-center my-5 sm:text-2xl leading-tight sm:font-extrabold">A barn house of this design has a <br> striking appearance</h2>
+
+         <p class="text-center font-medium text-sm py-5 lg:w-3/4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+    </header>
+    <!-- main section start here -->
+     <main>
+
+     </main>
+     <!-- footer area start here -->
+      <footer>
+
+      </footer>
  
 </body>
 </html>
