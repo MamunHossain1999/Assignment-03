@@ -29,9 +29,9 @@
         theme: {
           extend: {
             colors: {
-            color:{
-                primary: '#D4F6AE'
-            } 
+              color:{
+                  primary: '#D4F6AE'
+              } 
              
             }
           }
@@ -43,53 +43,95 @@
 
 <body class="font-poppins">
    <!-- header area start here -->
-    <header class="w-4/5 mx-auto">
-        <!-- start navber area -->
-        <div class="navbar bg-re-100">
-          <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                
-            </div>
+   <header>
+    <div class="max-w-[1170px] m-auto navbar">
+      <div
+        class="md:navbar-start flex flex-row-reverse w-full justify-between"
+      >
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
           </div>
-
-              <a class="btn btn-ghost text-xl"><i class="fa-light fa-arrow-up-right"></i>Rinterio</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>Services</a></li>              
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn bg-primary w-2/3 rounded-3xl ">book Consult</a>
-            </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow absolute right-0"
+          >
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
         </div>
-         <!-- end navber area -->
-         <img class="w-3/4 mx-auto" src="./assets/banner.png" alt="banner">
-         <h2 class="lg:w-full mx-auto lg:text-6xl font-bold text-center my-5 sm:text-2xl leading-tight sm:font-extrabold">A barn house of this design has a <br> striking appearance</h2>
+        <a class="btn btn-ghost text-xl">
+          <img src="./assets/arrow-up-right-01.svg" alt="" /> Rinterio</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end flex items-center gap-2 hidden md:flex">
+        <span class="bg-white p-2 border rounded-full">
+          <img src="./assets/search-01.svg" alt="icon"
+        /></span>
+        <span class="bg-white p-2 border rounded-full">
+          <img src="./assets/shopping-cart-01.svg" alt="icon"
+        /></span>
+        <a href="#" class="btn rounded-full bg-[#ABEF5F]">
+          Book Consult
+          <img src="./assets/Black-arrow-up-right-01.svg" alt="icon"
+        /></a>
+      </div>
+    </div>
+  </header>
 
-         <p class="text-center font-medium text-sm py-5 lg:w-3/4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-    </header>
+  <!-- banner section -->
+  <section>
+    <div
+      class="max-w-[1084px] m-auto text-center flex flex-col items-center pt-3 pb-28"
+    >
+      <img
+        class="text-center block w-[570px]"
+        src="./assets/banner.png"
+        alt="banner"
+      />
+      <h1 class="text-6xl mb-3">
+        A barn house of this design has a striking appearance
+      </h1>
+      <p>
+        The barn house captivates with its blend of rustic charm and modern
+        sophistication, featuring weathered wood, sleek metal accents, and
+        large windows that flood the space with natural light.
+      </p>
+      <a href="#" class="btn rounded-full bg-[#ABEF5F]">
+        Book Consult
+        <img src="./assets/Black-arrow-up-right-01.svg" alt="icon"
+      /></a>
+    </div>
+  </section>
+
+
     <!-- main section start here -->
-     <main>
-
-     </main>
+   
      <!-- footer area start here -->
       <footer>
 
